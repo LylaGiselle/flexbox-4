@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Make me into a grid!</title>
+    <title>Layout with Flexbox</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -23,17 +23,26 @@
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
 
-    <section class="wrapper">
-        <div class="div-1">
-            I was born and raised in Santa Monica. I went to college in Kalamazoo, Michigan. I have also lived in France
-            and Arizona.
+    <section class="flex-container">
+        <header>
+            <h1>Hi I'm Lyla.</h1>
+        </header>
+        <main>
+            <p>I'm currently a Front-end Dev student at SkillCrush! When I'm not learning coding, I work at a psychology
+                foundation, where we examine how people cope with mortality. People are fascinating.</p>
+        </main>
+        <div id="div-1" class="flex-items">
+            <p>I was born and raised in Santa Monica. I went to college in Kalamazoo, Michigan. I have also lived in
+                France
+                and Arizona.</p>
         </div>
-        <div class="div-2">
-            My hobbies are playing the piano, guitar, figure skating, and hiking.
+        <div id="div-2" class="flex-items">
+            <p>My hobbies are playing the piano, guitar, figure skating, and hiking.</p>
         </div>
-        <div class="div-3">
-            Fun fact: I'm currently learning to code.
+        <div id="div-3" class="flex-items">
+            <p>Fun fact: I'm currently learning to code.</p>
         </div>
+        <footer>Footer</footer>
     </section>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
